@@ -45,3 +45,75 @@ function sum(...nums) { // nums
 }
 let nums = [1, 2, 3];
 console.log(sum(...nums)); // Spread
+
+const add = (a,b) => {
+    return a +b;
+}
+console.log(add(5,10));
+
+function sum(...numbers) {
+    let total = 0;
+
+    for (let num of numbers) {
+        total += num;
+    }
+
+    return total;
+}
+
+console.log(sum(10, 20, 30));
+
+let arr1 = [1, 2, 3];
+
+let arr2 = [...arr1];
+
+console.log(arr2);
+
+//Merge arryas
+let a = [1,2];
+let b = [3,4];
+
+let c = [...a, ...b];
+
+console.log(c);
+
+function shout(msg) {
+ return msg.toUpperCase();
+}
+function processMessage(fn) {
+ console.log(fn("hello"));
+}
+processMessage(shout);
+
+function createMultiplier(x) {
+ return function (y) {
+ return x * y;
+ };
+}
+let double = createMultiplier(2);
+console.log(double(5)); // 10
+
+// Closures = when a function remembers its parent scope, even after the parent has finished.
+function outer() {
+ let count = 0;
+ return function () {
+ count++;
+ console.log(count);
+ };
+}
+let counter = outer();
+counter(); // 1
+counter(); // 2
+// Even after outer is done, counter still remembers count .
+
+// IIFE – Immediately Invoked Function Expression
+(function () {
+    console.log("Hello");
+})();
+
+hello(); // works
+function hello() {
+ console.log("Hi");
+}
+
+
