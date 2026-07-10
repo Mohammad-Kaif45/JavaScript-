@@ -39,3 +39,9 @@ let total = nums.reduce((acc, val) => acc + val, 0);
 
 nums.forEach(n => console.log(n));
 
+console.log(nums.find(n => n > 2));  // // First match
+console.log(nums.some(n => n > 5)); // // At least one true
+console.log(nums.every(n => n > 0)); // All true
+
+// Destructuring & Spread
+
