@@ -1,1 +1,3 @@
-let h1 = document.querySelectorAll("h1"); 
+let h1 = document.querySelector("h1");
+h1.style.color = "white";
+h1.style.backgroundColor = "blue";
