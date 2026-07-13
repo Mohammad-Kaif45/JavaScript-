@@ -22,7 +22,19 @@
 // button.removeAttribute("disabled");
 
 
-let ul = document.querySelector("ul");
-let li = document.createElement("li");
-li.textContent = "Mango";
-ul.appendChild(li);
+// let ul = document.querySelector("ul");
+// let li = document.createElement("li");
+// li.textContent = "Mango";
+// ul.appendChild(li);
+
+
+let p = document.querySelector("p");
+p.addEventListener("click",function(){
+    p.classList.add("para");
+});
+
+p.addEventListener("dblclick",function(){
+    p.style.color = "green";
+});
+
+
