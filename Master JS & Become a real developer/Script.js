@@ -18,5 +18,11 @@
 // let div = document.querySelector("div");
 // div.setAttribute("title","Some Info");
 
-let button = document.querySelector("button");
-button.removeAttribute("disabled");
+// let button = document.querySelector("button");
+// button.removeAttribute("disabled");
+
+
+let ul = document.querySelector("ul");
+let li = document.createElement("li");
+li.textContent = "Mango";
+ul.appendChild(li);
