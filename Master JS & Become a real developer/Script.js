@@ -28,13 +28,13 @@
 // ul.appendChild(li);
 
 
-let p = document.querySelector("p");
-p.addEventListener("click",function(){
-    p.classList.add("para");
-});
+// let p = document.querySelector("p");
+// p.addEventListener("click",function(){
+//     p.classList.add("para");
+// });
 
-p.addEventListener("dblclick",function(){
-    p.style.color = "green";
-});
+// p.addEventListener("dblclick",function(){
+//     p.style.color = "green";
+// });
 
 
