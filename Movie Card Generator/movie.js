@@ -40,10 +40,10 @@ for (let i = 0; i < movies.length; i++) {
     img.alt = movies[i].name;
 
 
+    card.appendChild(img);
     card.appendChild(name);
     card.appendChild(ratings);
     card.appendChild(genre);
-    card.appendChild(img);
 
     body.appendChild(card);
 }
