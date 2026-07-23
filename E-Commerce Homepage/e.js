@@ -82,3 +82,4 @@ body.appendChild(nav);
 body.appendChild(banner);
 body.appendChild(productContainer);
 body.appendChild(footer);
+
