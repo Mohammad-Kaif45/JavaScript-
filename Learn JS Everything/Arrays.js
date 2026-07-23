@@ -28,7 +28,7 @@
 // let prices = [100, 200, 300];
 // let taxed = prices.map(p => p * 1.18);
 
-// filter() -> Filters out elements based on a condition.
+// filter() -> Filters out elements based on a condition. what
 // let nums = [1, 2, 3, 4];
 // let even = nums.filter(n => n % 2 === 0);
 
